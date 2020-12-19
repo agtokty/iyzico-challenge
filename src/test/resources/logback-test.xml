@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework" level="ERROR"/>
+    <logger name="org.hibernate" level="INFO"/>
+    <logger name="com.iyzico.challenge" level="INFO"/>
+    <logger name="com.zaxxer.hikari" level="DEBUG" additivity="false"/>
+    <root level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
